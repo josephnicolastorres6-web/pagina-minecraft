@@ -1,12 +1,19 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Navbar} from './navbar/navbar';
+import { Hero } from './hero/hero';
+import { Features } from './features/features';
+ import { Footer } from './footer/footer';
+import { ServidoresComponent} from "./servidores/servidores";
 
-@Component({
+@Component({  
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  
+  imports: [RouterOutlet, Navbar, Hero, Features, Footer, ServidoresComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
-  protected readonly title = signal('pagina-minecraft');
+export class AppComponent {
+  title = 'pagina-minecraft';
 }

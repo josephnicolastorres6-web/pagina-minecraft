@@ -1,0 +1,35 @@
+.features-section {
+  padding: 100px 20px;
+  background-color: #121212; /* Un poco más oscuro que el fondo para que resalte */
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 -20px 40px rgba(0,0,0,0.8);
+  text-align: center;
+}
+
+.section-title {
+  color: #38AD1A;
+  font-size: 3rem;
+  margin-bottom: 60px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: #1e1e1e;
+  padding: 50px 30px;
+  border-radius: 15px;
+  width: 280px;
+  border: 1px solid #333;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  border-color: #38AD1A;
+  transform: translateY(-10px);
+}
