@@ -1,9 +1,10 @@
 .hero-minecraft {
   height: 100vh;
   /* Prueba con esta ruta que busca directamente en la carpeta de activos públicos */
-  background-image: url("fondo.png"); 
+  background-image: url("pantalla.png"); 
   
   background-size: cover;
+
   background-position: center;
   background-attachment: fixed; /* Esto mantiene el fondo estático al bajar */
   display: flex;
