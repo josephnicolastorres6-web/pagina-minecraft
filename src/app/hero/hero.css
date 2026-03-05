@@ -1,7 +1,7 @@
 .hero-minecraft {
   height: 100vh;
   /* Prueba con esta ruta que busca directamente en la carpeta de activos públicos */
-  background-image: url('public/fondo.png'); 
+  background-image: url('fondo.png'); 
   
   background-size: cover;
   background-position: center;
